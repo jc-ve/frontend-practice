@@ -1,0 +1,29 @@
+.navigation {
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $clr-green-dark;
+      font-weight: 700;
+    }
+
+    &:hover,
+    &:active {
+      color: $clr-black;
+    }
+
+    &--active {
+      &:link,
+      &:visited {
+        color: $clr-black;
+      }
+    }
+  }
+}

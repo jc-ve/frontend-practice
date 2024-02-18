@@ -1,0 +1,8 @@
+.hero {
+  background-color: $clr-green-light;
+
+  &__text {
+    max-width: 60rem;
+    margin-inline: auto;
+  }
+}

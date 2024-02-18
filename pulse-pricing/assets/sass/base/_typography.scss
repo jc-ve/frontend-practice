@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $clr-black;
+}
+
+.heading {
+  font-weight: 700;
+  line-height: 1;
+
+  &--primary {
+    font-size: 6rem;
+  }
+}

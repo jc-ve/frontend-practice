@@ -1,0 +1,17 @@
+.btn {
+  &:link,
+  &:visited {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  &--outline {
+    &:link,
+    &:visited {
+      color: $clr-green-dark;
+      border: 2px solid currentColor;
+      padding: 0.4rem 1.6rem;
+    }
+  }
+}
