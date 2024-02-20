@@ -31,6 +31,9 @@ body {
 .u-margin-bottom-sm {
   margin-bottom: 1.6rem; }
 
+.u-margin-bottom-md {
+  margin-bottom: 3.2rem; }
+
 .u-text-center {
   text-align: center; }
 
@@ -43,6 +46,13 @@ body {
   color: #00ad6a;
   border: 2px solid currentColor;
   padding: 0.4rem 1.6rem; }
+
+.btn--solid:link, .btn--solid:visited {
+  display: inline-block;
+  font-size: 2rem;
+  color: #464951;
+  background-color: #1fe374;
+  padding: 0.8rem 3.2rem 1.2rem; }
 
 .header {
   background-color: #eafaf1;
@@ -69,8 +79,92 @@ body {
 .navigation__link--active:link, .navigation__link--active:visited {
   color: #080c16; }
 
+.pricing-card {
+  color: #464951; }
+  .pricing-card--basic {
+    padding: 3.2rem; }
+    .pricing-card--basic__body {
+      padding-inline: 2.4rem; }
+      .pricing-card--basic__body ul {
+        margin: 0 0 1.5rem 1.5rem; }
+  .pricing-card--recommended {
+    text-align: center;
+    cursor: pointer; }
+    .pricing-card--recommended__body {
+      border: 1px solid #00ad6a;
+      padding: 4.8rem 3.2rem 2.4rem; }
+  .pricing-card__title {
+    font-weight: 700;
+    line-height: 1;
+    color: #00ad6a; }
+    .pricing-card__title--basic {
+      font-size: 2rem;
+      margin-bottom: 1.6rem; }
+    .pricing-card__title--recommended {
+      font-size: 4.8rem;
+      color: #00ad6a;
+      padding-inline: 1.6rem;
+      margin-bottom: 0.8rem; }
+  .pricing-card__label {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase; }
+    .pricing-card__label--light {
+      color: #fcfcfc;
+      background-color: #00ad6a;
+      padding-block: 0.4rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      overflow: hidden; }
+  .pricing-card__price {
+    font-size: 2.4rem;
+    color: #83858a;
+    margin-bottom: 2.4rem; }
+  .pricing-card__list--checked {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: left; }
+    .pricing-card__list--checked .pricing-card__item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem; }
+      .pricing-card__list--checked .pricing-card__item::before {
+        content: "";
+        display: block;
+        height: 1.2rem;
+        width: 1.2rem;
+        background: url(../images/icon-check-bullet.svg);
+        background-repeat: no-repeat;
+        flex-shrink: 0; }
+
+.testimonial__img {
+  display: inline-block;
+  margin-bottom: 1.6rem; }
+
+.testimonial__review {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem; }
+
+.testimonial__author {
+  font-size: 1.2rem;
+  color: #00ad6a;
+  font-weight: 700; }
+
 .hero {
   background-color: #eafaf1; }
   .hero__text {
     max-width: 60rem;
-    margin-inline: auto; }
+    margin-inline: auto;
+    margin-bottom: 8rem; }
+  .hero__pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; }
+  .hero__testimonial {
+    max-width: 80rem;
+    margin-inline: auto;
+    text-align: center;
+    padding-block: 9.6rem; }

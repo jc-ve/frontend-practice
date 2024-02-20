@@ -1,0 +1,17 @@
+.testimonial {
+  &__img {
+    display: inline-block;
+    margin-bottom: 1.6rem;
+  }
+
+  &__review {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__author {
+    font-size: 1.2rem;
+    color: $clr-green-dark;
+    font-weight: 700;
+  }
+}

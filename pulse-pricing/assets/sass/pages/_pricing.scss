@@ -4,5 +4,19 @@
   &__text {
     max-width: 60rem;
     margin-inline: auto;
+    margin-bottom: 8rem;
+  }
+
+  &__pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  &__testimonial {
+    max-width: 80rem;
+    margin-inline: auto;
+    text-align: center;
+    padding-block: 9.6rem;
   }
 }

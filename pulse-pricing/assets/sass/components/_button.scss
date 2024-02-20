@@ -14,4 +14,15 @@
       padding: 0.4rem 1.6rem;
     }
   }
+
+  &--solid {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-size: 2rem;
+      color: $clr-gray-dark;
+      background-color: $clr-green;
+      padding: 0.8rem 3.2rem 1.2rem;
+    }
+  }
 }
