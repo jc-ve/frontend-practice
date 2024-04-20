@@ -73,6 +73,29 @@ body {
   .faq__answer {
     color: #464951; }
 
+.footer {
+  background-color: #080c16;
+  padding: 0 9.6rem; }
+  .footer__content {
+    display: flex;
+    gap: 3.2rem; }
+  .footer__nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem; }
+  .footer__item--title {
+    color: #fcfcfc;
+    font-weight: 700; }
+  .footer__link:link, .footer__link:visited {
+    text-decoration: none;
+    color: #1fe374; }
+  .footer__link:hover, .footer__link:active {
+    color: #fcfcfc; }
+  .footer__copyright {
+    font-size: 1.2rem;
+    color: #464951; }
+
 .header {
   background-color: #eafaf1;
   padding-block: 3rem; }

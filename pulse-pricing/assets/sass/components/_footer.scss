@@ -1,0 +1,41 @@
+.footer {
+  background-color: $clr-black;
+  padding: 0 9.6rem;
+
+  &__content {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  &__nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  &__item {
+    &--title {
+      color: $clr-white;
+      font-weight: 700;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $clr-green;
+    }
+
+    &:hover,
+    &:active {
+      color: $clr-white;
+    }
+  }
+
+  &__copyright {
+    font-size: 1.2rem;
+    color: $clr-gray-dark;
+  }
+}
